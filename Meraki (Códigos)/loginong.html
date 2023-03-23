@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <link rel="icon" type="img" href="./img/LOGO.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Login Ong</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="./php/loginong.php" method="POST" class="sign-in-form">
+            <h2 class="title">Login</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="email" name="email_ong" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="senha_ong"placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+          </form>
+
+          <form action="./php/cadastroong.php" method="POST" class="sign-up-form">
+            <h2 class="title">Cadastre-se</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name="nomefantasia_ong" placeholder="Nome Fantasia" />
+            </div>
+             <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name="nomejuridico_ong"placeholder="Nome Juridico" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" name="email_ong" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="senha_ong" placeholder="Senha" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="number" name="telefone_ong" placeholder="Número de Telefone">
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="number" name="cep_ong" placeholder="CEP" />
+            </div>
+             <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="number" name="cnpj_ong" placeholder="CNPJ" />
+              </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <select name="categoria_ong">
+                  <option name="mb_ong" value="meioambiente">Meio Ambiente</option>
+                  <option name="soci_ong" value="social">Social</option>
+                  <option name="ani_ong" value="animais">Animais</option>
+              </select>
+            </div>
+             <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="textarea" name="desc_ong" placeholder="Descreva sua ONG" maxlength="190" />
+            </div>
+            <input type="submit" class="btn" value="Cadastro">
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Novo aqui ?</h3>
+            <p>
+              Realize seu cadastro e faça parte do grupo Meraki
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Cadastrar
+            </button>
+          </div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Um de nós ?</h3>
+            <p>
+              Faça o login se você já faz parte do Meraki
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/login.js"></script>
+  </body>
+</html>
