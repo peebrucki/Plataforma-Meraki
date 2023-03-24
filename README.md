@@ -6,6 +6,6 @@ Meraki é um plataforma (fictícia) para um trabalho de conclusão de curso para
 - Sistema de Alteração de informações no perfil
 - Sistema do ADM, o qual pode alterar e acessar informações de todos usuários
 # Softwares Utilizados:
-- Sublime Text (HTML, PHP e CSS)
+- Sublime Text (HTML, PHP, CSS e JavaScrip)
 - WampServer (localhost)
 - MySQL (Criar e Organizar Banco de Dados)
