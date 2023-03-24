@@ -9,3 +9,6 @@ Meraki é um plataforma (fictícia) para um trabalho de conclusão de curso para
 - Sublime Text (HTML, PHP, CSS e JavaScrip)
 - WampServer (localhost)
 - MySQL (Criar e Organizar Banco de Dados)
+# Em aperfeiçoamento:
+Mesmo que o trabalho já tenha sido analisado e avaliado como MB pela bancada muitas funcionalidades e elementos de design serão aperfeiçoados durante o tempo para tornar o site mais funcional e de acordo com o planejamento antes do início do desenvolvimento.
+
