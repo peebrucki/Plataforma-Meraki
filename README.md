@@ -1,6 +1,5 @@
 # Plataforma-Meraki
-> Status do Projeto: Em Aperfeiçoamento
-- Meraki é um plataforma (fictícia) para um trabalho de conclusão de curso para a ETEC Lauro Gomes, ele foi feito para doadores terem uma maior facilidade de encontrar ONG's, nossa intenção foi testar nossas habilidades de front-end e back-end junto com o banco de dados.
+- Meraki é um plataforma (fictícia) para um trabalho de conclusão de curso para a ETEC Lauro Gomes, ele foi feito para doadores terem uma maior facilidade de encontrar ONG's, nossa intenção foi testar nossas habilidades de front-end e back-end junto com o banco de dados
 # No nosso site contemos:
 - Sistema de Cadastro e Login/Logout
 - Banco de Dados para Armazenar todos dados
